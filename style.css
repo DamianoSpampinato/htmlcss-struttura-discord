@@ -23,7 +23,6 @@ header{
     margin: auto;
    display: flex;
     max-width: 1100px;
-    background-color: #daa520;
     justify-content: space-between;
     padding: 6px;
     
@@ -38,8 +37,15 @@ header{
     justify-content: flex-end;
 }
 
+.col-40{
+    width: 40%;
+}
+
 .col-50{
     width:50%;
+}
+.col-60{
+    width: 60%;
 }
 
 .hero{
@@ -47,14 +53,36 @@ header{
     margin-top: 50px;
     
 }
+.section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container{
+    display: flex;
+    margin: auto;
+}
 /* -------
     DEBUG
 -------- */
-.col-25, .col-50, .container-header, .hero{
+.col-25, .col-40, .col-50, .col-60, .container-header, .hero, .container{
     border: 1px dashed black;
 }
 .hero{
     width: 900px;
     height: 400px;
     background-color: #ee82ee;
+}
+.container-nav{
+    background-color: #daa520;
+}
+.container{
+    width: 1200px;
+    height: 500px;
+}
+
+.col-40{
+    background-color:#ffc0cb ;
+}
+.col-60{
+background-color: #1e90ff;
 }
