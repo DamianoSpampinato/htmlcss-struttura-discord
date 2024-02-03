@@ -86,3 +86,7 @@ section{
 .col-60{
 background-color: #1e90ff;
 }
+
+section:nth-child(even){
+    background-color: #d3d3d3;
+}
