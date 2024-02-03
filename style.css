@@ -78,8 +78,15 @@ section{
 .container{
     width: 1200px;
     height: 500px;
+    background-color: #228b22;
+}
+main > .container:last-child{
+    height: 900px;
 }
 
+footer{
+    background-color: #23272a;
+}
 .col-40{
     background-color:#ffc0cb ;
 }
